@@ -42,23 +42,6 @@ This project is an ASP.NET Core MVC web application developed as a university as
    - Admin: `admin@asp.net` / `Wdp-2024`  
    - Member: `member@asp.net` / `Wdp-2024`
 
-## API Endpoints
-
-| Method | Endpoint                   | Description                                      |
-| ------ | -------------------------- | ------------------------------------------------ |
-| GET    | `/`                        | Home page                                       |
-| GET    | `/Photos`                  | List all photos                                 |
-| GET    | `/Photos/Details/{id}`     | View photo details                              |
-| GET    | `/Photos/Create`           | Create new photo (Admin only)                   |
-| POST   | `/Photos/Create`           | Submit new photo                                |
-| GET    | `/Photos/Edit/{id}`        | Edit photo (Admin only)                         |
-| POST   | `/Photos/Edit/{id}`        | Submit photo edits                              |
-| POST   | `/Photos/Delete/{id}`      | Delete photo (Admin only)                       |
-| GET    | `/Identity/Account/Login`  | Show login page                                 |
-| POST   | `/Identity/Account/Login`  | Login action                                    |
-| GET    | `/Identity/Account/Register` | Show registration                              |
-| POST   | `/Identity/Account/Register` | Register user                                  |
-| POST   | `/Identity/Account/Logout` | Logout user                                     |
 
 
 
@@ -74,14 +57,10 @@ This project is an ASP.NET Core MVC web application developed as a university as
 - `app.db` – SQLite DB.
 
 
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
 ## Acknowledgments
 
 - University of Canberra - WDP2024 Course
 - [ASP.NET Core MVC Docs](https://learn.microsoft.com/aspnet/core)
 - [Bootstrap](https://getbootstrap.com)
 - [EF Core](https://docs.microsoft.com/ef/core)
+
